@@ -14,9 +14,9 @@ spec:
     metadata:
       labels:
         app: nginx
-      spec:
-        containers:
-          - name: nginx
-            image: vasudhajha/nginx:v0.1.0
-            ports:
-              - containerPort: 80
+    spec:
+      containers:
+        - name: nginx
+          image: vasudhajha/nginx:v0.1.0
+          ports:
+            - containerPort: 80
